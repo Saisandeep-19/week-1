@@ -32,6 +32,3 @@ if st.button('predict'):
         predicted_values={}
         for p,val in zip(pollutants,predicted_poll):
             st.write(f'{p}:{val:.2f}')
-                
-        
-    
